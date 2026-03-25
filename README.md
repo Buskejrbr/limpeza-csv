@@ -1,4 +1,4 @@
-# 🧹 Limpeza de Dados com Python e Pandas
+# Limpeza de Dados com Python e Pandas
 
 Projeto simples de limpeza e padronização de dados usando Python e Pandas.
 
@@ -19,35 +19,28 @@ Projeto simples de limpeza e padronização de dados usando Python e Pandas.
 ## Como rodar
 
 1. Instale as dependências:
-```bash
+bash
 pip install pandas
-```
+
 
 2. Gere o arquivo de dados brutos:
-```bash
+bash
 python gerar_dados.py
-```
+
 
 3. Execute a limpeza:
-```bash
+bash
 python limpeza.py
-```
 
-4. O arquivo `dados_limpos.csv` será criado na mesma pasta.
+
+4. O arquivo "dados_limpos.csv" será criado na mesma pasta.
 
 ## Estrutura
 
-```
+
 01-limpeza-csv/
 ├── gerar_dados.py     # Gera um CSV com dados bagunçados para teste
 ├── limpeza.py         # Script principal de limpeza
 ├── dados_brutos.csv   # Gerado pelo gerar_dados.py
 ├── dados_limpos.csv   # Gerado pelo limpeza.py
 └── README.md
-```
-
-## Aprendizados
-
-- Uso de `dropna()`, `drop_duplicates()`, `fillna()`
-- Manipulação de strings com `.str`
-- Conversão e formatação de datas com `pd.to_datetime()`
